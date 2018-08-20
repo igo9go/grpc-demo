@@ -1,0 +1,14 @@
+{
+  "name": "grpc-go-php",
+  "require": {
+    "grpc/grpc": "^1.4",
+    "google/protobuf": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "GPBMetadata\\": "phpClient/meta/GPBMetadata/",
+      "Helloworld\\": "phpClient/meta/Helloworld/",
+      "Meta\\": "phpClient/meta/Meta/"
+    }
+  }
+}
